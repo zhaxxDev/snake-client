@@ -30,6 +30,8 @@ const setupInput = function(conn) {
     } else if (key === "d") {
       console.log("d")
       conn.write("Move: right")
+    } else if (key === "j") {
+      conn.write("Say: XDXDDXXDXDXDXDDXD")
     }
   });
 
